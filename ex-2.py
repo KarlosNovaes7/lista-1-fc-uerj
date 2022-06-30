@@ -16,5 +16,5 @@ print('\n')
 
 for loopPa in range(n): 
     print(a1, end=" ")
-    a1 +=3 
+    a1 +=r 
 
