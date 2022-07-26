@@ -1,8 +1,7 @@
-pesoTotalCaixas = 0
+somaDosPesos = 0
 
-for i in range(1, 26):
-    numeroCaixa = i
-    input('Digite o peso da caixa ' + str(numeroCaixa) + ': ' )
-    somaDosPesos = pesoTotalCaixas + i
-
+for numeroCaixa in range(1, 6):
+    pesoCaixa = int(input('Digite o peso da caixa ' + str(numeroCaixa) + ': ' ))
+    somaDosPesos += pesoCaixa
+    
 print('A soma dos pesos de todas as caixas é:', somaDosPesos)
