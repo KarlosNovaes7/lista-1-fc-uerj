@@ -5,7 +5,7 @@ nomeProdutoMaisCaro = ""
 precoProduto = 0
 
 while(nomeProduto != 'xxx'):
-    precoProduto = int(input('digite o preço do produto: '))
+    precoProduto = float(input('digite o preço do produto: '))
     if (precoProduto > produtoMaisCaro):
         produtoMaisCaro = precoProduto
         nomeProdutoMaisCaro = nomeProduto
