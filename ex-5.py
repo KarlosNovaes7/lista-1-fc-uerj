@@ -1,6 +1,6 @@
 somaDosPesos = 0
 
-for numeroCaixa in range(1, 6):
+for numeroCaixa in range(1, 26):
     pesoCaixa = int(input('Digite o peso da caixa ' + str(numeroCaixa) + ': ' ))
     somaDosPesos += pesoCaixa
     
